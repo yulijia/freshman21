@@ -36,6 +36,9 @@ locales:
       Tags: "Tags"
       Previous: "Newer"
       Next: "Older"
+      PostedInCategories: "Posted in"
+      Taggedwith: "and tagged"
+      PostDate: "on "
     cn:
       Aboutme: "关于我"
       Archives: "存档"
@@ -46,7 +49,9 @@ locales:
       Tags: "标签" 
       Previous: "前一页"
       Next: "下一页"
-
+      PostedInCategories: "目录:"   
+      Taggedwith: "| 标签:"
+      PostDate: "| 发表时间:"
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
