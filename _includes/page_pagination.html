@@ -1,14 +1,14 @@
 <section class="pager">
   <ul>
     {% if page.previous %}
-    <li class="previous"><a href="/cn{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; 前一页</a></li>
+    <li class="next"><a href="{{ site.url }}{{ page.previous.url }}" title="{{ page.previous.title }}">{{ site.locales[site.default_locale].Next }} &rarr;</a></li>
     {% else %}
-    <li class="disabled"><a>&larr; 前一页</a></li>
+    <li class="disabled"><a>{{ site.locales[site.default_locale].Next }} &rarr;</a></li>
     {% endif %}
     {% if page.next %}
-    <li class="next"><a href="/cn{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">下一页 &rarr;</a></li>
+    <li class="previous"><a href="{{ site.url }}{{ page.next.url }}" title="{{ page.next.title }}">&larr; {{ site.locales[site.default_locale].Previous }}</a></li>
     {% else %}
-    <li class="disabled"><a>下一页 &rarr;</a>
+    <li class="disabled"><a>&larr; {{ site.locales[site.default_locale].Previous }}</a>
     {% endif %}
   </ul>
 </section>
