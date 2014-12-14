@@ -1,0 +1,317 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  font-weight: 300;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+  margin-bottom: $spacing-unit / 2;
+}
+
+
+
+
+
+/**
+ * Set main page style
+ */
+
+.container {
+  min-height:100%;
+  max-width: -webkit-calc(#{$page-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$page-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  padding-top:30px;
+
+  background-color:#fff;
+  margin-top:20px;
+  margin-bottom:30px;
+  box-shadow: 1px 1px 10px #BBB;
+}
+
+/*for media*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+/*two columns*/
+.col-sm-8,.col-sm-2{
+  position:relative;
+  min-height:1px;
+  margin: 0px 15px;
+}
+
+
+@media screen and (min-width : $on-palm) {
+  .col-sm-8 {
+    float:left;
+    width:65%;
+  }
+
+  .col-sm-2 {
+    float:right;
+    width:25%;
+  }
+}
+
+
+
+/**
+ * Images
+ */
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+  display: block;
+}
+
+figcaption {
+  font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+  margin-left: $spacing-unit;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+  color: $brand-top-color;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($brand-top-color, 25%);
+  }
+
+  &:hover {
+    color: #669900; //$hover-color;
+    text-decoration: underline;
+  }
+}
+
+
+.post-content a{
+  color: $brand-color;    
+  text-decoration: none;  
+  border-bottom: 1px dotted;
+  &:visited {             
+    color: darken($brand-color, 25%);
+  }                       
+
+  &:hover {               
+    color: $hover-color;
+    text-decoration: none;
+  }  
+
+}
+
+/**
+ * Blockquotes
+ */
+
+blockquote{
+  padding: 0 1em;
+  margin: 14px 0;
+  border: 2px dashed #d0dfda;
+  border-radius: 5px;
+  color: $grey-color;
+  font-size: 18px;
+  background: #f9f9f9;
+
+  &:hover {
+    color: #454545;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,code {
+  font-size: 15px;
+  border-radius: 3px;
+  background-color: $code-backgroud-color;
+  color: $code-font-color;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow: auto; 
+
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $spacing-unit;
+  padding-left: $spacing-unit;
+  @extend %clearfix;
+
+  @include media-query($on-laptop) {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+    padding-right: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+  }
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+
+
+/**
+ * Icons
+ */
+.icon {
+
+  > svg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+
+    path {
+      fill: $grey-color;
+    }
+  }
+}
+
+
+
+/**
+ * Table
+ */
+
+
+table { padding: 0;border-collapse: collapse; }
+table tr {
+  border-top: 1px solid #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+table tr:nth-child(2n) { background-color: #f8f8f8; }
+table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  margin: 0;
+  padding: 6px 13px;
+}
+table tr td {
+  border: 1px solid #cccccc;
+  margin: 0;
+  padding: 6px 13px;
+}
+table tr th :first-child, table tr td :first-child { margin-top: 0; }
+table tr th :last-child, table tr td :last-child { margin-bottom: 0; }
+
+
+/**
+ * line between each post on main page
+ */
+
+hr{
+  margin-bottom: 30px;
+  border: 0;
+  border-bottom: 1px dotted #ccc;
+}
+
+cite{ 
+  font-style: italic;
+  text-decoration: underline;
+}

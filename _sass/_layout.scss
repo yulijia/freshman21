@@ -1,0 +1,319 @@
+/**
+ * Site header
+ */
+.site-header {
+  //Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  text-align:center;
+  a{
+    &,
+    &:visited
+    &:hover {
+      color: $brand-top-color; //$grey-color-dark
+      border-bottom: 1px dotted;
+      text-decoration: none;
+    }
+  }
+}
+
+.site-meta{
+  font-size: 20px;
+  line-height:56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  text-align:center; 
+  color: $grey-color;
+}
+
+.site-nav {
+  /*float: right;*/
+  line-height: 56px;
+  border-top: 1px solid $grey-color-light;
+  border-bottom: 1px solid $grey-color-light;
+  .menu-icon {
+    display: none;
+  }
+
+  .page-link {
+    color: $grey-color;
+    line-height: $base-line-height;
+
+    // Gaps between nav items, but not on the first one
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+
+  a{
+    text-decoration: none;
+
+    &:hover {
+      color: $text-color;
+      text-decoration: none;
+      //font-weight: bold;
+    }
+  }
+
+
+  @include media-query($on-palm) {
+    position: relative;
+    background-color: $background-color;
+    border: 1px solid $grey-color-light;
+    border-radius: 5px;
+    text-align: center;
+
+    .menu-icon {
+      display: block;
+      line-height: 0;
+      text-align: center;
+
+      > svg {
+        width: 18px;
+        height: 30px;
+
+        path {
+          fill: $grey-color-dark;
+        }
+      }
+    }
+
+    .trigger {
+      clear: both;
+      display: none;
+    }
+
+    &:hover .trigger {
+      display: block;
+      padding-bottom: 5px;
+    }
+
+    .page-link {
+      display: block;
+      padding: 5px 10px;
+    }
+  }
+
+}
+
+
+/**
+ * Sidebar
+ */
+
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+  font-size: 14px;
+  h4{
+    font-size: $base-font-size;
+    font-weight: bold;
+    color: $grey-color-dark;
+  }
+  li{
+    list-style: none; 
+  }
+
+}
+
+
+/**
+ * Site footer
+ */
+
+.site-footer {
+  clear: both;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid $grey-color-light;
+  margin: $spacing-unit 0; 
+  padding: $spacing-unit 0;
+  font-size: 10px;
+}
+
+.footer-heading {
+  font-size: 18px;
+  margin-bottom: $spacing-unit / 2;
+}
+
+
+/**
+ * Page content
+ */
+.page-content {
+  padding: $spacing-unit 0;
+}
+
+.page-heading {
+  font-size: 20px;
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  font-size: 36px;//42px;
+}
+
+
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  font-size: 38px;//42px;
+  letter-spacing: -1px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    font-size: 36px;
+  }
+}
+
+.post-content {
+
+  margin-bottom: $spacing-unit;
+  h1 { 
+    font-size: 38px;
+    line-height:1em;
+    @include media-query($on-laptop){
+      font-size: 36px;
+    }
+
+  }
+  h2 {
+    font-size: 32px;
+    line-height:1em;
+
+    @include media-query($on-laptop) {
+      font-size: 28px;
+    }
+  }
+
+  h3 {
+    font-size: 26px;
+    line-height:1em;
+
+    @include media-query($on-laptop) {
+      font-size: 22px;
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+    line-height:1em;
+
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
+}
+
+
+/**
+ * Pagination Style
+ */
+
+.pager{
+  margin-bottom: 60px;
+  text-align: center;
+  ul { display: block; margin: 20px 0; }
+  li{list-style: none;}
+  li.previous a{float:left;}
+  li.next a{float:right;}
+  li.disabled {display:none;}
+}
+
+
+/**
+ * Tags and Categories Style
+ */
+
+.tags-box{
+  li {
+    list-style: none;
+    font-weight: bold;
+    margin-top:10px;
+  }
+  .size{
+    font-size: 0.7em; font-weight: bold; vertical-align: super;
+  }
+}
+
+
+/*time style of tages and categories*/
+
+time{
+  margin-left: 15px;
+  font-style: italic;
+}
+
+
+
+/**
+ * Aboutme photo Style
+ */
+
+.about{
+  img {
+    height: 128px;
+    width: 128px;
+    border-radius:50%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+
+
+/**
+ * New style for quotation.
+ */
+
+q:before {
+  content: '『';
+  color: #DD1144;
+  font-weight:bold;
+}
+q:after {
+  content:'』';
+  color: #DD1144;
+  font-weight:bold;
+}
+
+
+/**
+ * Only used for me
+ */
+
+::selection {
+  background:#669900; 
+  color: #fff; 
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background:#669900; 
+  color: #fff; 
+  text-shadow: none;
+}
+
+::-webkit-selection {
+  background:#669900; 
+  color: #fff; 
+  text-shadow: none;
+}
