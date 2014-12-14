@@ -51,7 +51,7 @@ locales:
       Next: "下一页"
       PostedInCategories: "目录:"   
       Taggedwith: "| 标签:"
-      PostDate: "| 发表时间:"
+      PostDate: "| 发表时间: "
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
