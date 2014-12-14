@@ -1,0 +1,14 @@
+<section class="pager">
+  <ul>
+    {% if page.previous %}
+    <li class="previous"><a href="/cn{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; 前一页</a></li>
+    {% else %}
+    <li class="disabled"><a>&larr; 前一页</a></li>
+    {% endif %}
+    {% if page.next %}
+    <li class="next"><a href="/cn{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">下一页 &rarr;</a></li>
+    {% else %}
+    <li class="disabled"><a>下一页 &rarr;</a>
+    {% endif %}
+  </ul>
+</section>

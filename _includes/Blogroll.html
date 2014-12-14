@@ -1,0 +1,7 @@
+<div class="sidebar-module">
+  <h4>{{ site.locales[site.default_locale].Blogroll }}</h4>
+  {% for friend in site.Blogroll %}
+  <li><a href="{{ friend.href }}" title="{{ friend.title }}">{{ friend.name }}</a></li>
+  {% endfor %}
+</div>
+

@@ -1,0 +1,13 @@
+<section class="pager">
+  {% if paginator.previous_page %}
+  {% if paginator.previous_page == 1 %}
+  <li class="previous"><a href="/cn/" title="前一页">&larr; 前一页</a></li>
+  {% else %}
+  <li class="previous"><a href="/cn/page{{ paginator.previous_page }}/" title="前一页">&larr; 前一页</a></li>
+  {% endif %}
+  {% endif %}
+  {% if paginator.next_page %}
+  <li class="next"><a href="/cn/page{{ paginator.next_page }}/" title="下一页">下一页 &rarr;</a></li>
+  {% endif %}
+</section>
+

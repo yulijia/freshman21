@@ -1,0 +1,7 @@
+<div class="sidebar-module">
+  <h4>{{ site.locales[site.default_locale].Categories }}</h4>
+  {% for cat in site.categories %}
+  <li><a href="{{ site.url }}/categories/#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a></li>
+  {% endfor %}
+</div>
+
