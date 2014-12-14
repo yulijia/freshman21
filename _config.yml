@@ -57,12 +57,13 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-    - name: Github
-      href: https://github.com
-      title: Github website
-    - name: CAS
-      href: http://english.cas.cn
-      title: Chinese Academy of Sciences
+    - name: Freshman21
+      href: http://yulijia.net/freshman21
+      title: Another Jekyll blog theme
+    - name: author's website
+      href: http://yulijia.net/
+      title: Lijia Yu's website
+
 
 ### Build settings
 markdown: kramdown
