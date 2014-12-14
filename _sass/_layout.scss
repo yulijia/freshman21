@@ -295,25 +295,3 @@ q:after {
   font-weight:bold;
 }
 
-
-/**
- * Only used for me
- */
-
-::selection {
-  background:#669900; 
-  color: #fff; 
-  text-shadow: none;
-}
-
-::-moz-selection {
-  background:#669900; 
-  color: #fff; 
-  text-shadow: none;
-}
-
-::-webkit-selection {
-  background:#669900; 
-  color: #fff; 
-  text-shadow: none;
-}
