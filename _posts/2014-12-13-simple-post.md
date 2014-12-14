@@ -76,19 +76,7 @@ The New York Times <cite>(That’s a citation)</cite>.
 |:--------|:-------:|--------:|
 | cell1   | cell2   | cell3   |
 | cell4   | cell5   | cell6   |
-|----
-| cell1   | cell2   | cell3   |
-| cell4   | cell5   | cell6   |
-|=====
-| Foot1   | Foot2   | Foot3
-
-
-
-### table
-
-| Kingdom | Phylum  | Class | Order | Family |
-|:------:|:------:|:------:|:------:|:------:| 
-|ANIMALIA|CHORDATA|MAMMALIA|CETARTIODACTYLA|CERVIDAE|
+| cell7   | cell8   | cell9   |
 
 
 ## Code Snippets
