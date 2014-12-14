@@ -34,6 +34,8 @@ locales:
       Copyright_Notice: "Copyright Notice"
       Resent_Posts: "Resent Posts"
       Tags: "Tags"
+      Previous: "Newer"
+      Next: "Older"
     cn:
       Aboutme: "关于我"
       Archives: "存档"
@@ -42,7 +44,8 @@ locales:
       Copyright_Notice: "版权声明"
       Resent_Posts: "近期文章"
       Tags: "标签" 
-
+      Previous: "前一页"
+      Next: "下一页"
 
 ### your Blogroll info, only name can shown on the page.
 
