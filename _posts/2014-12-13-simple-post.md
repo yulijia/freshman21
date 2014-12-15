@@ -79,6 +79,10 @@ The New York Times <cite>(That’s a citation)</cite>.
 | cell7   | cell8   | cell9   |
 
 
+| Kingdom | Phylum  | Class | Order | Family |
+|:------:|:------:|:------:|:------:|:------:| 
+|ANIMALIA|CHORDATA|MAMMALIA|CETARTIODACTYLA|CERVIDAE|
+
 ## Code Snippets
 
 Syntax highlighting via Pygments
