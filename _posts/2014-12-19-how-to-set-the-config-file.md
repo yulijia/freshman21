@@ -69,7 +69,7 @@ paginate: 5  # how many post can seen in the main page
 =====
 
 <ul style='list-style-type:none;'> 
-<li id="[1]"> [1], you can set those info at **Part3** or just delete the <q>aboutme.html</q> at <q>sidebar.html</q> in <code>_include</code> folder. </li>
+<li id="[1]"> [1], you can set those info at <strong>Part3</strong> or just delete the <q>aboutme.html</q> at <q>sidebar.html</q> in <code>_include</code> folder. </li>
 </ul>
 
 {% highlight HTML %}
