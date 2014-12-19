@@ -1,8 +1,8 @@
 ---
 layout: post
 title: How to install this theme
-categories: articles
-tags: [sample-post]
+categories: [articles, Howto]
+tags: [sample-post, Howto]
 comments: true
 description: How to install this theme, follow steps, very easy!
 ---
