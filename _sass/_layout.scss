@@ -135,13 +135,9 @@
   border-top: 1px solid $grey-color-light;
   margin: $spacing-unit 0; 
   padding: $spacing-unit 0;
-  font-size: 10px;
+  font-size: 14px;
 }
 
-.footer-heading {
-  font-size: 18px;
-  margin-bottom: $spacing-unit / 2;
-}
 
 
 /**
@@ -297,24 +293,3 @@ q:after {
 }
 
 
-/**
- * Only used for me
- */
-
-::selection {
-  background:#669900; 
-  color: #fff; 
-  text-shadow: none;
-}
-
-::-moz-selection {
-  background:#669900; 
-  color: #fff; 
-  text-shadow: none;
-}
-
-::-webkit-selection {
-  background:#669900; 
-  color: #fff; 
-  text-shadow: none;
-}
