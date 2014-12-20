@@ -31,8 +31,6 @@ twitter_username: #your twitter handle
 github_username:  #your github account
 disqus_shortname: #disqus shortname
 favicon:     "images/favicon.ico"
-#touch_icon:  "img/apple-touch-icon.png"
-#google_analytics_key:  # put YOUR key here to enable tracking! (blank to disable)
 aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-box(sidebar).
 aboutme_photo: https://i.imgur.com/15BT1.jpg # your personal photo.
 {% endhighlight %}
