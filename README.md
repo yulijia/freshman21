@@ -1,7 +1,7 @@
-hman21
+Freshman21
 ==========
 
-Freshman21 is a Jekyll blog theme, base on theme [Freshman](http://github.com/yulijia/freshman). A tribute to Wordperss Theme Twenty-Twelve and Twenty-eleven. 
+Freshman21 is a Jekyll blog theme, base on theme [Freshman](http://github.com/yulijia/freshman). *A tribute to Wordperss Theme Twenty-Twelve and Twenty-eleven. *
 
 Enjoy.
 
@@ -20,10 +20,11 @@ $ mv freshman21/ yourblogname.github.io/
 
 ### A Summary of Features
 
-- Provide single column and two columns style
-- Simple and easy to use
+- Provide single column and two columns layout
+- Powerful configure file
 - Comments by Disqus
-- Support LaTeX(MathJax)
+- Support LaTeX (by MathJax)
+- Syntax highlighting
 
 
 ### Demo
