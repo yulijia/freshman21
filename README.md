@@ -4,7 +4,7 @@ hman21
 A Jekyll blog theme, base on theme [Freshman](http://github.com/yulijia/freshman), but there are many difference. Welcome to use Jekyll theme Freshman21.
 
 
-[Imgur](http://i.imgur.com/oSp7kac.png)
+![Screen](http://i.imgur.com/oSp7kac.png)
 
 ### How to install this theme?
 
