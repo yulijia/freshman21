@@ -8,7 +8,8 @@ permalink: /about/
 
 ### Freshman21 is a Jekyll theme.
 
-Freshman21 is a tribute to Twenty Twelve and Twenty eleven.
+A tribute to Twenty Twelve and Twenty eleven.
+
 I like wordpress's theme Twenty Twelve and Twenty eleven very much. 
 So I called my Jekyll theme Freshman21 (Freshman <q>twenty-first</q> , it means twenty-first century, not twenty-one), this theme is based on my former theme [Freshman](https://github.com/yulijia/freshman/).
 
