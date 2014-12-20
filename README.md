@@ -3,7 +3,7 @@ Freshman21
 
 Freshman21 is a Jekyll blog theme, base on theme [Freshman](http://github.com/yulijia/freshman). 
 
-A tribute to Wordperss Theme Twenty-Twelve and Twenty-eleven.
+A tribute to WordPress Theme Twenty-Twelve and Twenty-eleven.
 
 Enjoy.
 
