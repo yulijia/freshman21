@@ -13,7 +13,7 @@ url: "http://yulijia.net/freshman21" # the base hostname & protocol for your sit
 twitter_username: yulijia
 github_username:  yulijia
 disqus_shortname: freshman21
-favicon:     "images/favicon.ico"
+favicon:     "/images/favicon.ico"
 aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
 aboutme_photo: https://i.imgur.com/15BT1.jpg # your photo.
 
