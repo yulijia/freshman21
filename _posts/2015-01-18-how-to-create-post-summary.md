@@ -10,7 +10,7 @@ tags:
 ---
 
 
-We can made a summary of post in the defult page.
+We can make a summary of post, and show it in the home page.
 
 ### How to only show a part of posts?
 
