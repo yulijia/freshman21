@@ -18,7 +18,7 @@ We can made a summary of post in the defult page.
 
 This method can automatically create a summary of article. However if the article begin with <q>code</q> or <q>markdown tags</q>, you will find the article css style can not shown on the home page.
 
-**Method 2.** In [index.html](https://github.com/yulijia/freshman21/blob/master/index.html) file, using <code>\{\{ post.summary \}\}</code> to insted of <code>\{\{ post.content \}\}</code>, produces a summary of post. You need add summary in each <q>post</q> file, [example](http://yulijia.net/freshman21/howto/2015/01/18/how-to-create-post-summary.html)
+**Method 2.** In [index.html](https://github.com/yulijia/freshman21/blob/master/index.html) file, using <code>\{\{ post.summary \}\}</code> to insted of <code>\{\{ post.content \}\}</code>, produces a summary of post. You need add summary in each <q>post</q> file, [example](https://gist.github.com/yulijia/2f865b78a28bfe9e0a81#file-a-article-post-with-summary)
 
 Then you will find all articles summary in the home page.
 
