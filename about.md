@@ -21,7 +21,8 @@ Freshman21 have two main page format, one is [single column](http://yulijia.net/
 
 #### Hi, the picture you have seen in the sample-page is a Père David's deer photoed by my friend at Beijing Milu Park, China.
 
+
 Milu(麋鹿) is the chinese name of Père David's deer.
 
-
+All photos on this website are copyrighted material and all rights are reserved.
 
