@@ -30,7 +30,7 @@ Below is just about everything you'll need to style in the theme. Check the sour
 
 This is figure
 
-![Elaphurus davidianus](https://i.imgur.com/15BT1.jpg "Père David's deer")
+![Elaphurus davidianus](https://i.imgur.com/Mdc4szJl.jpg "Père David's deer")
 
 *This is emphasized*.
 

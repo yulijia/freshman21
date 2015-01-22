@@ -17,7 +17,7 @@ Freshman21 have two main page format, one is [single column](http://yulijia.net/
 
 <cite>Proudly enjoy using Freshman21 theme.</cite> <code>;)</code>
 
-<img title="麋鹿" src="https://i.imgur.com/15BT1.jpg" alt="麋鹿" width="580" height="668" />
+<img title="麋鹿" src="https://i.imgur.com/Mdc4szJl.jpg" alt="麋鹿" width="580" height="668" />
 
 #### Hi, the picture you have seen in the sample-page is a Père David's deer photoed by my friend at Beijing Milu Park, China.
 
