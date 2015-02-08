@@ -11,9 +11,9 @@ tags:
 
 I made a small change in the gh-pages branch, add google analytics script.
 
-The main <p>JS</p> script was in the <p>_include</p> folder, and  this JS file was included in <p>head.html</p>.
+The main <q>JS</q> script was in the <q>_include</q> folder, and  this JS file was included in <q>head.html</q>.
 
-In <p>_config.yml</p> file, I add the Google analytics key.
+In <q>_config.yml</q> file, I add the Google analytics key.
 
 To fork the version with google analytics, please try this command:
 
