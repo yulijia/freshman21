@@ -3,7 +3,7 @@ published: true
 title: A small change
 layout: post
 author: Yu 
-category:a articles
+category: articles 
 tags:
 - features
 - google analytics
