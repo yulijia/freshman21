@@ -7,7 +7,7 @@
   {% assign year = this_year %}
   {% unless post == site.posts.first %}
   {% endunless %}
-  <li id="{{ year }}" > <a href="{{ site.url }}/archives/#{{year}}">{{ year }}</a></li>
+  <li id="{{ year }}" > <a href="{{ site.baseurl }}/archives/#{{year}}">{{ year }}</a></li>
   {% endunless %}
   {% endfor %}
 
