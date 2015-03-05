@@ -74,7 +74,7 @@ paginate: 5  # how many post can seen in the main page
 <div class="col-sm-2">
   <!--\{\% include Aboutme.html \%\}-->
   \{\% include Copyright_Notice.html \%\}
-  \{\% include Resent_Posts.html \%\}
+  \{\% include Recent_Posts.html \%\}
   \{\% include Categories.html \%\}
   \{\% include Tags.html \%\}
   \{\% include Blogroll.html \%\}

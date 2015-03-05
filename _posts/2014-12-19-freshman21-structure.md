@@ -41,7 +41,7 @@ All sidebar boxes html files are in the <code>_include</code> directory, their n
 │   ├── head.html
 │   ├── page_pagination.html
 │   ├── post_pagination.html
-│   ├── Resent_Posts.html      # right column sidebar content
+│   ├── Recent_Posts.html      # right column sidebar content
 │   ├── sidebar.html           # you can set you own sidebar content in here
 │   └── Tags.html              # right column sidebar content
 ├── index.html
@@ -99,7 +99,7 @@ There is nothing wrong with the above method, however some people like to keep t
 │   ├── head.html
 │   ├── page_pagination.html
 │   ├── post_pagination.html
-│   ├── Resent_Posts.html
+│   ├── Recent_Posts.html
 │   ├── sidebar.html
 │   └── Tags.html
 ├── index.html
