@@ -10,6 +10,15 @@ Enjoy.
 
 ![Screen](http://i.imgur.com/oSp7kacl.png)
 
+### Version
+
+- master branch: the simplest template, original version.
+
+- gh-pages branch: master branch with google analytics js template.
+
+- readmore branch: master branch with article summary.
+
+
 ### How to install this theme?
 
 ```
