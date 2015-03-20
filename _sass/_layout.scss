@@ -183,8 +183,8 @@
 }
 
 .post-content {
-  p{ padding:20px 0; }
-  margin-bottom: $spacing-unit;
+  p { padding:$spacing-unit/5 0; } 
+  //margin-bottom: $spacing-unit;
   h1 { 
     font-size: 38px;
     line-height:1em;
