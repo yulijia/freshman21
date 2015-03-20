@@ -3,10 +3,8 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
-$base-font-family: 'Open Sans', sans-serif;
+$base-font-family: 'Open Sans', Helvetica, Arial, sans-serif !important;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6em;
@@ -44,18 +42,18 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "_syntax-highlighting-native" // "syntax-highlighting"
+"base",
+"layout",
+"_syntax-highlighting-native" // "syntax-highlighting"
 ;
 
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
