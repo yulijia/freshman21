@@ -9,6 +9,8 @@ tags:
 - summary
 ---
 
+* Table of Contents
+{:toc}
 
 We can make a summary of post, and show it in the home page.
 
