@@ -181,9 +181,33 @@
   }
 }
 
+
+
+#markdown-toc{
+  float: right;
+  width:50%;
+  background:#f4f7f8;
+  padding:20px 15px;
+  li{
+    padding-top:10px;
+    position:relative; 
+    list-style-type:none;  
+  }
+}
+
+#markdown-toc:before{
+  content:"Table of Contents";
+  font-weight: 700;
+  padding-left:10px;
+  border-bottom:5px solid $grey-color-light !important;
+  display:block;
+  font-size:18px
+}
+
+
 .post-content {
   p { padding:$spacing-unit/5 0; } 
-//  margin-bottom: $spacing-unit;
+  //  margin-bottom: $spacing-unit;
   h1 { 
     font-size: 38px;
     line-height:1em;
