@@ -18,6 +18,7 @@ Enjoy.
 
 - readmore branch: master branch with article summary.
 
+gh-pages and readmore branch will be merged.
 
 ### How to install this theme?
 
