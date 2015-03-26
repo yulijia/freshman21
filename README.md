@@ -20,6 +20,15 @@ Enjoy.
 
 gh-pages and readmore branch will be merged.
 
+### update news
+
+```
+* Table of content
+{toc:}
+```
+add table of content css style.
+
+
 ### How to install this theme?
 
 ```
