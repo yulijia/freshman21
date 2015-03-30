@@ -7,7 +7,7 @@ description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _c
 keywords: "Jekyll, theme, Freshman21"
 baseurl: "/freshman21" # the subpath of your site, e.g. /blog
 url: "http://yulijia.net/freshman21" # the base hostname & protocol for your site
-
+locale: en_US
 
 ### Personal info and site tools info:
 twitter_username: yulijia
