@@ -7,11 +7,20 @@ tags: [sample-post]
 comments: true
 ---
 
+* Table of Contents
+{:toc}
+
+
 This is a sample post.
 
 Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.
 
 
+
+
+## Heading
+
+~~~
 # Heading 1
 
 ## Heading 2
@@ -19,7 +28,7 @@ Below is just about everything you'll need to style in the theme. Check the sour
 ### Heading 3
 
 #### Heading 4
-
+~~~
 
 
 
@@ -42,15 +51,14 @@ The New York Times <cite>(That’s a citation)</cite>.
 
 <del>HTML and CSS are our tools</del>. 
 
-
 ## Blockquotes
 
 > Justification:
 > This species is listed as Extinct in the Wild, as all populations are still under captive management. The captive population in China has increased in recent years, and the possibility remains that free-ranging populations can be established some time in the near future. When that happens, its Red List status will need to be reassessed. 
 
-
 > I follow up the quest. Despite of day and night and death and hell.
 > <center> -- Idylls of the King, Tennyson </center>
+
 
 
 ## List Types
@@ -82,6 +90,7 @@ The New York Times <cite>(That’s a citation)</cite>.
 |:------:|:------:|:------:|:------:|:------:| 
 |ANIMALIA|CHORDATA|MAMMALIA|CETARTIODACTYLA|CERVIDAE|
 
+
 ## Code Snippets
 
 Syntax highlighting via Pygments
@@ -95,16 +104,6 @@ Syntax highlighting via Pygments
 {% endhighlight %}
 
 
-{% highlight R %}
-
-├── my-theme
-│   ├── assets
-│   │   ├── css
-│   │   ├── img
-│   │   └── js
-│   └── page.html
-
-{% endhighlight %}
 #### highlight with line number.
 
 {% highlight ruby linenos  %}
