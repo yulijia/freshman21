@@ -45,8 +45,4 @@ after <code>\{\{post.summary\}\}</code>
 
 ## The example of post summary at [Gist](https://gist.github.com/yulijia/2f865b78a28bfe9e0a81).
 
------
 
-## you can clone the readmore version by using
-
-<code>git clone --branch readmore https://github.com/yulijia/freshman21.git</code>
