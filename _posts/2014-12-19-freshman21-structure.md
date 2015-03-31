@@ -19,50 +19,52 @@ All sidebar boxes html files are in the <code>_include</code> directory, their n
 
 {% highlight Bash shell scripts %}
 .
-├── aahome.md                  # home page link at navigation bar
-├── about.md                   # about link at navigation bar
-├── archives.md                # archives link at navigation bar
-├── categories.md              # categories link at navigation bar 
-├── _config.yml
-├── css
-│   └── main.scss
-├── guestbook.md               # guest book like at navigation bar
-├── images
-│   └── favicon.ico            # here is your website favicon
-├── _includes               
-│   ├── Aboutme.html           # right column sidebar content
-│   ├── Archives.html          # right column sidebar content
-│   ├── Blogroll.html          # right column sidebar content
-│   ├── Categories.html        # right column sidebar content
-│   ├── comments.html
-│   ├── Copyright_Notice.html  # right column sidebar content
-│   ├── footer.html
-│   ├── header.html
-│   ├── head.html
-│   ├── page_pagination.html
-│   ├── post_pagination.html
-│   ├── Recent_Posts.html      # right column sidebar content
-│   ├── sidebar.html           # you can set you own sidebar content in here
-│   └── Tags.html              # right column sidebar content
-├── index.html
-├── _layouts
-│   ├── default.html
-│   ├── page.html
-│   └── post.html
-├── LICENSE
-├── _posts
-│   ├── 2011-07-22-hello-world.md
-│   ├── 2013-10-10-milu.md
-│   ├── 2013-12-25-I-am-a-reindeer.md
-│   ├── 2014-12-13-simple-post.md
-│   └── 2014-12-18-how-to-install.md
-├── README.md
-├── _sass
-│   ├── _base.scss
-│   ├── _layout.scss
-│   └── _syntax-highlighting.scss
-├── tags.md                    # tags at main navigation bar  
-└── zfeed.xml                  # RSS at main navigation bar
+|-- a_home.md                 # home page link at navigation bar
+|-- b_about.md                # about link at navigation bar
+|-- c_archives.md             # archives link at navigation bar
+|-- _config.yml
+|-- css
+|   `-- main.scss
+|-- d_categories.md           # categories link at navigation bar 
+|-- e_tags.md                 # tags at main navigation bar
+|-- feed.xml                  # RSS at main navigation bar
+|-- f_guestbook.md            # guest book like at navigation bar
+|-- images
+|   `-- favicon.ico           # here is your website favicon
+|-- _includes
+|   |-- Aboutme.html          # right column sidebar content
+|   |-- Archives.html         # right column sidebar content
+|   |-- Blogroll.html         # right column sidebar content
+|   |-- Categories.html       # right column sidebar content
+|   |-- comments.html         # right column sidebar content
+|   |-- Copyright_Notice.html # right column sidebar content
+|   |-- footer.html
+|   |-- header.html
+|   |-- head.html
+|   |-- page_pagination.html
+|   |-- post_pagination.html
+|   |-- Recent_Posts.html     # right column sidebar content
+|   |-- sidebar.html          # you can set you own sidebar content in here
+|   `-- Tags.html             # right column sidebar content
+|-- index.html
+|-- _layouts
+|   |-- default.html
+|   |-- page.html
+|   `-- post.html
+|-- LICENSE
+|-- _posts
+|   |-- 2013-10-10-milu.md
+|   |-- 2014-12-13-simple-post.md
+|   |-- 2014-12-18-how-to-install.md
+|   |-- 2014-12-19-freshman21-structure.md
+|   |-- 2014-12-19-how-to-set-the-config-file.md
+|   `-- 2015-03-31-readme.md
+|-- README.md
+`-- _sass
+    |-- _base.scss
+    |-- _layout.scss
+    |-- _syntax-highlighting-native.scss
+    `-- _syntax-highlighting.scss
 {% endhighlight %}
 
 ## 2.Structure with Named folders containing index HTML files
@@ -72,7 +74,6 @@ There is nothing wrong with the above method, however some people like to keep t
 
 
 {% highlight Bash shell scripts %}
-
 .
 ├── _backup
 │   ├── en.tar.gz
@@ -125,7 +126,6 @@ There is nothing wrong with the above method, however some people like to keep t
 │   └── _syntax-highlighting.scss
 └── tags
     └── index.md
-
 {% endhighlight %}
 
 ## 3. How to change the highlight style?
