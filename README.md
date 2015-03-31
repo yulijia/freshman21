@@ -10,13 +10,12 @@ Enjoy.
 
 ![Screen](http://i.imgur.com/oSp7kacl.png)
 
-### Version
+### Version 2.0 update 2015.03.31
 
 - master branch: the simplest template, original version.
 
-- gh-pages branch: master branch with google analytics js template.
+- gh-pages branch: master branch with google analytics js template, BackToTop js script, readmore module.
 
-- readmore branch: master branch with article summary.
 
 
 
