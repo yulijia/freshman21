@@ -38,6 +38,7 @@ locales:
       PostedInCategories: "Posted in"
       Taggedwith: "and tagged"
       PostDate: "on "
+      Google_search: "Site Search"
     cn:
       Aboutme: "关于我"
       Archives: "存档"
@@ -51,6 +52,7 @@ locales:
       PostedInCategories: "目录:"   
       Taggedwith: "| 标签:"
       PostDate: "| 发表时间: "
+      Google_search: "站内搜索"
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
