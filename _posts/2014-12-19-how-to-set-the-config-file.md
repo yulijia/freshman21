@@ -10,8 +10,6 @@ comments: true
 
 The [config.yml file](https://github.com/yulijia/freshman21/blob/master/_config.yml) in the Freshman21 theme includes five parts. 
 
-<!-- more -->
-
 **First part** is the site info.
 
 {% highlight YAML %}
@@ -25,6 +23,8 @@ keywords: "Jekyll, theme, Freshman21" # html meta keywords
 baseurl: "/freshman21" # the subpath of your site, e.g. /blog
 url: "http://yulijia.net/freshman21" # the base hostname & protocol for your site
 {% endhighlight %}
+
+<!--more-->
 
 **Part 2**, Personal info and site tools info, twitter, github, aboutme and aboutme_photo only appears on the sidebar aboutme-box, you can <q>Hide</q> in two ways <sup>[[1]](#[1])</sup>:
 
@@ -74,13 +74,13 @@ paginate: 5  # how many post can seen in the main page
 
 {% highlight HTML %}
 <div class="col-sm-2">
-  <!--\{\% include Aboutme.html \%\}-->
-  \{\% include Copyright_Notice.html \%\}
-  \{\% include Recent_Posts.html \%\}
-  \{\% include Categories.html \%\}
-  \{\% include Tags.html \%\}
-  \{\% include Blogroll.html \%\}
-  \{\% include Archives.html \%\}
+  <!--{ % include Aboutme.html % }-->
+   { % include Copyright_Notice.html % }
+   { % include Recent_Posts.html % }
+   { % include Categories.html % }
+   { % include Tags.html % }
+   { % include Blogroll.html % }
+   { % include Archives.html % }
 </div>                                                                                                      
 {% endhighlight %} 
 
