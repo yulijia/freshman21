@@ -72,13 +72,13 @@ paginate: 5  # how many post can seen in the main page
 
 {% highlight HTML %}
 <div class="col-sm-2">
-  <!--\{\% include Aboutme.html \%\}-->
-  \{\% include Copyright_Notice.html \%\}
-  \{\% include Recent_Posts.html \%\}
-  \{\% include Categories.html \%\}
-  \{\% include Tags.html \%\}
-  \{\% include Blogroll.html \%\}
-  \{\% include Archives.html \%\}
+  <!--{ % include Aboutme.html % }-->
+   { % include Copyright_Notice.html % }
+   { % include Recent_Posts.html % }
+   { % include Categories.html % }
+   { % include Tags.html % }
+   { % include Blogroll.html % }
+   { % include Archives.html % }
 </div>                                                                                                      
 {% endhighlight %} 
 
