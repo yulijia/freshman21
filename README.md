@@ -16,7 +16,13 @@ Enjoy.
 
 - gh-pages branch: master branch with google analytics js template, BackToTop js script, readmore module.
 
-
+Clone master branch: 
+ 
+`git clone https://github.com/yulijia/freshman21.git -b master --single-branch`
+ 
+Clone gh-pages branch: 
+ 
+`git clone https://github.com/yulijia/freshman21.git -b gh-pages --single-branch`
 
 
 ### How to install this theme?
