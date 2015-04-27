@@ -1,8 +1,7 @@
 <div class="sidebar-module">
   <h4>{{ site.locales[site.default_locale].Google_search }}</h4>
-  <form action="http://www.google.com/search" method="GET" target="_blank" >
-    <input type="hidden" name="q" value="site:{{site.url}}" />
-    <input id="cse-search-field" type="text" placeholder="Google search" name="q" results="0" placeholder=" " title="search" autocomplete="off" spellcheck="false" />
+  <form onsubmit="search_google()" >
+    <input type="text" id="google-search" placeholder="Google search" >
     <input type="submit" name="sa" value="Go" />
   </form>
 </div>
