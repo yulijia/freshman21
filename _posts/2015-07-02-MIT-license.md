@@ -3,7 +3,7 @@ published: ture
 layout: post
 title: "MIT license"
 author: Yu
-categories: Article
+categories: Articles
 tags:
 - MIT license
 ---
