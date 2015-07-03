@@ -41,5 +41,4 @@ SOFTWARE.
 
 ## People who modify this repository and remove my MIT License
 
-- https://github.com/dbarobin/dbarobin.github.io
 
