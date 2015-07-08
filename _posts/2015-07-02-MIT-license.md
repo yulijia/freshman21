@@ -41,10 +41,8 @@ SOFTWARE.
 
 When you make attribute to this theme, [here](http://programmers.stackexchange.com/questions/277688/if-i-fork-a-project-on-github-that-is-licensed-under-mit-how-to-i-handle-the-at) is the right way to update License.
 
-~~~
-Copyright for portions of project <q>Foo</q> are held by [Lijia Yu, 2014] as part of project <q>Freshman21</q>. 
-All other copyright for project <q>Foo</q> are held by [your name, year].
-~~~
+>Copyright for portions of project <q>Foo</q> are held by [Lijia Yu, 2014] as part of project <q>Freshman21</q>. 
+>All other copyright for project <q>Foo</q> are held by [your name, year].
 
 
 ## People who modify this repository and remove my MIT License
