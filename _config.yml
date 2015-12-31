@@ -67,5 +67,6 @@ Blogroll:
 ### Build settings
 markdown: kramdown
 highlighter: pygments
+gems: [jekyll-paginate]
 paginate: 5
 excerpt_separator: <!-- more -->
