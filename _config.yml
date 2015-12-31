@@ -66,4 +66,5 @@ Blogroll:
 ### Build settings
 markdown: kramdown
 highlighter: pygments
+gems: [jekyll-paginate]
 paginate: 5
