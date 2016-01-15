@@ -45,6 +45,6 @@ When you make attribute to this theme, [here](http://programmers.stackexchange.c
 >All other copyright for project <q>Foo</q> are held by [your name, year].
 
 
-## People who modify this repository and remove my MIT License
+- People who modify this repository and remove my MIT License will be listed at here. Because some of them really make me unconfortable.
 
 
