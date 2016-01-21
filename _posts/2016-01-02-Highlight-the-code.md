@@ -58,5 +58,22 @@ Just remove it and generate you own highlight style.
 pygmentize -f html -a .highlight -S default > ./sass/_syntax-highlighting.scss
 ~~~
 
+## Update at 20160121
 
+This theme know support using `triple backticks` ``` to write code blocks.
 
+~~~
+```r
+a=read.table("test.txt")
+head(a)
+```
+~~~
+
+It looks like:
+
+```r
+a=read.table("test.txt")
+head(a)
+```
+If you want to use triple backticks, 
+Please install **Rouge** by this command  `gem install kramdown rouge`.
