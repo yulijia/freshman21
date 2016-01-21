@@ -77,3 +77,5 @@ head(a)
 ```
 If you want to use triple backticks, 
 Please install **Rouge** by this command  `gem install kramdown rouge`.
+
+Reference: [Syntax Highlighting in Jekyll With Rouge](https://sacha.me/articles/jekyll-rouge/)
