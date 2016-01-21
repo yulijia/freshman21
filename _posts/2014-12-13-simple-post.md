@@ -113,6 +113,14 @@ def foo
 end
 {% endhighlight %}
 
+#### using triple backticks
+
+```r
+for(i in 1:10){
+  print(i*10)
+}
+
+```
 
 ## $$\LaTeX$$ 
 
