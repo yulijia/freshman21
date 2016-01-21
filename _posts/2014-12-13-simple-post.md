@@ -113,6 +113,18 @@ end
 {% endhighlight %}
 
 
+#### highlight using triple backticks
+
+```r
+a=1:10
+for(i in a)
+{
+  print(i)
+}
+
+
+```
+
 ## $$\LaTeX$$ 
 
 you can use latex with <q>double $$ </q>
