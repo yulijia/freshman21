@@ -17,7 +17,7 @@ All sidebar boxes html files are in the <code>_include</code> directory, their n
 
 
 
-{% highlight Bash shell scripts %}
+```bash
 .
 |-- a_home.md                 # home page link at navigation bar
 |-- b_about.md                # about link at navigation bar
@@ -65,7 +65,7 @@ All sidebar boxes html files are in the <code>_include</code> directory, their n
     |-- _layout.scss
     |-- _syntax-highlighting-native.scss
     `-- _syntax-highlighting.scss
-{% endhighlight %}
+```
 
 ## 2.Structure with Named folders containing index HTML files
 
@@ -73,7 +73,7 @@ All sidebar boxes html files are in the <code>_include</code> directory, their n
 There is nothing wrong with the above method, however some people like to keep their URLs free from things like filename extensions. To achieve clean URLs for pages using Jekyll, you simply need to create a folder for each top-level page you want, and then place an index.html file in each page’s folder. You can find the more detail at [Jekyll documentation](http://jekyllrb.com/docs/pages/ "Creating pages"). Here is my own blog structure with page-folders to contain each pages.
 
 
-{% highlight Bash shell scripts %}
+```bash
 .
 ├── _backup
 │   ├── en.tar.gz
@@ -126,7 +126,7 @@ There is nothing wrong with the above method, however some people like to keep t
 │   └── _syntax-highlighting.scss
 └── tags
     └── index.md
-{% endhighlight %}
+```
 
 ## 3. How to change the highlight style?
 
