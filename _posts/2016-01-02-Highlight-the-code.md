@@ -27,17 +27,17 @@ print(i)
 
 We can see the result as here:
 
-{% highlight R %}
+```r
 a=1:10
 for(i in a){
 print(i)
 }
-{% endhighlight %}
+```
 
 
 To install pygments, try:
 
-{% highlight Bash %}
+```bash
 pip install pygments
 
 ## Ubuntu/Debain 
@@ -46,7 +46,7 @@ sudo apt-get install python-pygments
 yum/dnf install python-pygments
 ## Arch
 pacman -S python-pygments
-{% endhighlight %}
+```
 
 Freshman21 has already include the highlighte style.
 

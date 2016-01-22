@@ -36,10 +36,11 @@ Basically, freshman21 doesn't support "read more" button.
 
 To create a page link(button) is very easy.
 
-Just add 
-{% highlight HTML%}
- <p><a href="\{\{ post.url | prepend: site.baseurl \}\}">read more</a></p> 
-{% endhighlight %}
+Just add
+
+```html
+<p><a href="\{\{ post.url | prepend: site.baseurl \}\}">read more</a></p> 
+```
 
 after <code>\{\{post.summary\}\}</code>
 
