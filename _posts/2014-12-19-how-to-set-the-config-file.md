@@ -82,6 +82,6 @@ paginate: 5  # how many post can seen in the main page
    { % include Tags.html % }
    { % include Blogroll.html % }
    { % include Archives.html % }
-</div>                                                                                                      
+</div>
 ``` 
 
