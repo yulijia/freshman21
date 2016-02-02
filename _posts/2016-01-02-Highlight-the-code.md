@@ -10,6 +10,11 @@ tags:
 ---
 
 
+> NOTICE:
+>
+> The 'pygments' highlighter is currently unsupported on GitHub Pages. I use 'rouge' for highlighting instead. 
+> If some of you receive the email of 'Page build warning' from GitHub, to suppress this warning, change the 'highlighter' value to 'rouge' in your '_config.yml'. 
+
 I use [Pygments](http://pygments.org/) as syntax highlighter for this theme.
 
 To generate a sysntax highligted code, the grammar is:
@@ -33,7 +38,6 @@ for(i in a){
 print(i)
 }
 ```
-
 
 To install pygments, try:
 
@@ -75,7 +79,8 @@ It looks like:
 a=read.table("test.txt")
 head(a)
 ```
-If you want to use triple backticks, 
-Please install **Rouge** by this command  `gem install kramdown rouge`.
+
+<q>If you want to use triple backticks, 
+Please install **Rouge** by this command  `gem install kramdown rouge`.</q>
 
 Reference: [Syntax Highlighting in Jekyll With Rouge](https://sacha.me/articles/jekyll-rouge/)
