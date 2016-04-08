@@ -9,7 +9,7 @@ layout: default
     <p class="post-meta">
     {{ site.locales[site.default_locale].PostedInCategories }}
     {% for cat in page.categories %}
-    <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>
+    <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>{% unless page.categories.last == cat %}, {% endunless %}
     {% endfor %} 
     {% if page.tags != empty %}
     {{ site.locales[site.default_locale].Taggedwith }}
