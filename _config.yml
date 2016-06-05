@@ -50,7 +50,19 @@ locales:
       PostedInCategories: "目录:"   
       Taggedwith: "| 标签:"
       PostDate: "| 发表时间: "
-
+    jp:
+      Aboutme: "著者"
+      Archives: "アーカイブ"
+      Blogroll: "ブログロール"
+      Categories: "カテゴリー"
+      Copyright_Notice: "著作権表示"
+      Recent_Posts: "最近の投稿"
+      Tags: "タグ"
+      Previous: "前の記事"
+      Next: "次の記事"
+      PostedInCategories: "カテゴリー："
+      Taggedwith: "| タグ："
+      PostDate: "| 投稿日時: "
 
 ### your Blogroll info, only name can shown on the page.
 
