@@ -10,11 +10,20 @@ Enjoy.
 
 ![Screen](http://i.imgur.com/oSp7kacl.png)
 
-### Version 2.0 update 2015.03.31
+### Version 2.1 update 2016.06.06
 
-- master branch: the simplest template, original version.
+- master branch: the simplest template, original version with
+	* Open Graph META Tags
+	* Microdata(schema.org)
 
-- gh-pages branch: master branch with google analytics js template, BackToTop js script, readmore module.
+- gh-pages branch: master branch with 
+
+	* [google analytics js template](https://github.com/yulijia/freshman21/blob/gh-pages/_includes/google_analytics.js)
+        * [BackToTop js script](https://github.com/yulijia/freshman21/tree/gh-pages/js)
+        * <q>readmore</q> module
+        * [key pagination](http://yulijia.net/freshman21/news/2016/05/24/new-features.html)
+	* font awesome icon
+	* [Google search](https://github.com/yulijia/freshman21/blob/gh-pages/_includes/google_search.js)
 
 Clone master branch: 
 
@@ -25,6 +34,15 @@ Clone gh-pages branch:
 `git clone https://github.com/yulijia/freshman21.git -b gh-pages --single-branch`
 
 
+### A Summary of Features
+
+- Provide single column and two columns layout
+- Powerful configure file
+- Comments by Disqus
+- Support LaTeX (by MathJax)
+- Syntax highlighting
+- Multiply Languages support (English, Chinese, Japanese)
+
 
 ### How to install this theme?
 
@@ -34,16 +52,8 @@ $ gem install sass
 $ gem install jekyll
 $ git clone https://github.com/yulijia/freshman21.git
 $ mv freshman21/ yourblogname.github.io/
+
 ```
-
-### A Summary of Features
-
-- Provide single column and two columns layout
-- Powerful configure file
-- Comments by Disqus
-- Support LaTeX (by MathJax)
-- Syntax highlighting
-
 
 ### Demo
 
