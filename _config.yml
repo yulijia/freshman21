@@ -22,7 +22,7 @@ google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (bla
 ### Site setting:
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
+default_locale: "en" # blog sidebar language set, only include: English(en), Chinese (cn) and Japanese (jp)
 
 locales:
     en:
@@ -53,6 +53,20 @@ locales:
       Taggedwith: "| 标签:"
       PostDate: "| 发表时间: "
       Google_search: "站内搜索"
+    jp:
+      Aboutme: "著者"
+      Archives: "アーカイブ"
+      Blogroll: "ブログロール"
+      Categories: "カテゴリー"
+      Copyright_Notice: "著作権表示"
+      Recent_Posts: "最近の投稿"
+      Tags: "タグ"
+      Previous: "前の記事"
+      Next: "次の記事"
+      PostedInCategories: "カテゴリー："
+      Taggedwith: "| タグ："
+      PostDate: "| 投稿日時: "
+
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
