@@ -41,7 +41,10 @@ Clone gh-pages branch:
 - Comments by Disqus
 - Support LaTeX (by MathJax)
 - Syntax highlighting
-- Multiply Languages support (English, Chinese, Japanese)
+- Multiple Languages support 
+    * English
+    * Chinese
+    * Japanese (Contributed by [kokeiro](https://github.com/kokeiro001))
 
 
 ### How to install this theme?
