@@ -21,7 +21,7 @@ Enjoy.
 	* [google analytics js template](https://github.com/yulijia/freshman21/blob/gh-pages/_includes/google_analytics.js)
         * [BackToTop js script](https://github.com/yulijia/freshman21/tree/gh-pages/js)
         * <q>readmore</q> module
-        * [key pagination](http://yulijia.net/freshman21/news/2016/05/24/new-features.html)
+        * [keyboard shortcuts for pagination](http://yulijia.net/freshman21/news/2016/05/24/new-features.html)
 	* font awesome icon
 	* [Google search](https://github.com/yulijia/freshman21/blob/gh-pages/_includes/google_search.js)
 
