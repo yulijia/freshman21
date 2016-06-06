@@ -5,7 +5,7 @@ author: Lijia Yu
 email: yu@lijiayu.net
 description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Jekyll, theme, Freshman21"
-baseurl: "/freshman21" # the subpath of your site, e.g. /blog
+baseurl: "/freshman21" # the subpath of your site, e.g. /blog/
 url: "http://yulijia.net/freshman21" # the base hostname & protocol for your site
 locale: en_US
 
@@ -15,11 +15,12 @@ github_username:  yulijia
 disqus_shortname: freshman21
 favicon:     "/images/favicon.ico"
 aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
-aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg # your photo.
+aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg# your photo.
+google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
 
 
 ### Site setting:
-ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown when ShowContactInfo == True
+ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "en" # blog sidebar language set, only include: English(en), Chinese (cn) and Japanese (jp)
 
@@ -35,8 +36,13 @@ locales:
       Previous: "Older"
       Next: "Newer"
       PostedInCategories: "Posted in"
-      Taggedwith: "and tagged"  
+      Taggedwith: "and tagged"
       PostDate: "on "
+      Google_search: "Site Search"
+      Home: "Home"
+      About: "About"
+      Guestbook: "Guestbook"
+      Subscribe: "Subscribe"
     cn:
       Aboutme: "关于我"
       Archives: "存档"
@@ -50,6 +56,11 @@ locales:
       PostedInCategories: "目录:"   
       Taggedwith: "| 标签:"
       PostDate: "| 发表时间: "
+      Google_search: "站内搜索"
+      Home: "首页"
+      About: "关于"
+      Guestbook: "留言"
+      Subscribe: "订阅"
     jp:
       Aboutme: "著者"
       Archives: "アーカイブ"
@@ -63,23 +74,29 @@ locales:
       PostedInCategories: "カテゴリー："
       Taggedwith: "| タグ："
       PostDate: "| 投稿日時: "
+      Google_search: "サイト内検索"
+      Home: "ホーム"
+      About: "このブログについて"
+      Guestbook: "メッセージ"
+      Subscribe: "購読"
 
 ### your Blogroll info, only name can shown on the page.
 
 Blogroll:
-    - name: Freshman21
-      href: http://yulijia.net/freshman21
-      title: Another Jekyll blog theme
-    - name: author's website
-      href: http://yulijia.net/
-      title: Lijia Yu's website
+      - name: Freshman
+        href: http://yulijia.net/freshman
+        title: Another Jekyll blog theme
+      - name: author's website
+        href: http://yulijia.net/
+        title: Lijia Yu's website
 
 
 ### Build settings
 markdown: kramdown
-# highlighter: pygments
+#highlighter: pygments
 kramdown:
         input: GFM
         syntax_highlighter: rouge
 gems: [jekyll-paginate]
 paginate: 5
+excerpt_separator: <!-- more -->
