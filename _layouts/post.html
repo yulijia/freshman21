@@ -14,7 +14,7 @@ layout: default
     {% if page.tags != empty %}
     {{ site.locales[site.default_locale].Taggedwith }}
     {% for tag in page.tags %}
-    <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }} </a>{% unless page.tags.last == tag %}, {% endunless %}
+    <a href="{{ site.baseurl }}/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>{% unless page.tags.last == tag %}, {% endunless %}
     {% endfor %}
     {% endif %}
     <time itemprop="datePublished" datetime="{{ page.date | date: '%Y-%m-%d' }}">
