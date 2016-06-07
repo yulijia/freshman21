@@ -45,6 +45,7 @@ Clone gh-pages branch:
     * English
     * Chinese
     * Japanese (Contributed by [kokeiro](https://github.com/kokeiro001))
+    * Polish (Contributed by [Derson5](https://github.com/Derson5))
 
 
 ### How to install this theme?
