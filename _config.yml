@@ -22,7 +22,7 @@ google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (bla
 ### Site setting:
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp) and Polish (pl)
+default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl) and Korean(kr)
 
 locales:
     en:
@@ -97,6 +97,24 @@ locales:
       About: "O mnie"
       Guestbook: "Księga gości"
       Subscribe: "Subskrypcja"
+    kr:
+      Aboutme: "저자 소개"
+      Archives: "모든 게시물"
+      Blogroll: "참조 링크"
+      Categories: "카테고리"
+      Copyright_Notice: "저작권"
+      Recent_Posts: "최근 게시물"
+      Tags: "태그"
+      Previous: "이전 게시물"
+      Next: "다음 게시물"
+      PostedInCategories: "카테고리: "
+      Taggedwith: "태그: "
+      PostDate: "작성일: "
+      Google_search: "게시물 검색"
+      Home: "홈"
+      About: "소개"
+      Guestbook: "방명록"
+      Subscribe: "구독하기"
 
 ### your Blogroll info, only name can shown on the page.
 
