@@ -5,8 +5,8 @@ author: Lijia Yu
 email: yu@lijiayu.net
 description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "Jekyll, theme, Freshman21"
-baseurl: "/freshman21" # the subpath of your site, e.g. /blog/
-url: "http://yulijia.net/freshman21" # the base hostname & protocol for your site
+baseurl: "" # "/freshman21" # the subpath of your site, e.g. /blog/
+url: "http://localhost:4000/" #"http://yulijia.net/freshman21" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
@@ -22,7 +22,7 @@ google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (bla
 ### Site setting:
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl) and Korean(kr)
+default_locale: "ru" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr) and Russian (ru) 
 
 locales:
     en:
@@ -115,6 +115,24 @@ locales:
       About: "소개"
       Guestbook: "방명록"
       Subscribe: "구독하기"
+    ru:
+      Aboutme: "Обо мне" # = 'About me'
+      Archives: "Архив"
+      Blogroll: "Ссылки" # = 'Links'
+      Categories: "Разделы"
+      Copyright_Notice: "Авторские права"
+      Recent_Posts: "Свежие посты"
+      Tags: "Теги"
+      Previous: "Предыдущий пост"          # = 'Previous post'
+      Next: "Следующий пост"               # = 'Next post'
+      PostedInCategories: "Опубликовано в" # = 'Posted in'
+      Taggedwith: "с тегами"
+      PostDate: ""
+      Google_search: "Поиск на Google"
+      Home: "Домой"
+      About: "О блоге"            # = 'About blog'
+      Guestbook: "Гостевая книга"
+      Subscribe: "Подписаться"
 
 ### your Blogroll info, only name can shown on the page.
 
