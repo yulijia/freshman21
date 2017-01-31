@@ -22,7 +22,7 @@ google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (bla
 ### Site setting:
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr) and Russian (ru) 
+default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr), Russian (ru), and Turkish (tr)
 
 locales:
     en:
@@ -133,6 +133,24 @@ locales:
       About: "О блоге"            # = 'About blog'
       Guestbook: "Гостевая книга"
       Subscribe: "Подписаться"
+    tr:
+      Aboutme: "Hakkımda"
+      Archives: "Arşivler"
+      Blogroll: "Bağlantılar"
+      Categories: "Kategoriler"
+      Copyright_Notice: "Telif Hakkı Bildirimi"
+      Recent_Posts: "Son Yazılar"
+      Tags: "Etiketler"
+      Previous: "Daha Eski"
+      Next: "Daha Yeni"
+      PostedInCategories: "Şuraya gönderildi:"
+      Taggedwith: "ve şöyle etiketlendi:"
+      PostDate: "şu tarihte:"
+      Google_search: "Sitede Ara"
+      Home: "Anasayfa"
+      About: "Hakkında"
+      Guestbook: "Konuk Defteri"
+      Subscribe: "Abone Ol"
 
 ### your Blogroll info, only name can shown on the page.
 
