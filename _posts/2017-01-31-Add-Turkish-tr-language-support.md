@@ -13,4 +13,4 @@ tags:
 Thank to [Muhammet Kara](https://github.com/mrkara), Freshmen21 theme support Turkish now!
 
 
-![img](http://imgur.com/a/KErro.png)
+![img](http://i.imgur.com/Sgc5Y0o.png)
