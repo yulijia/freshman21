@@ -48,6 +48,7 @@ Clone gh-pages branch:
     * Polish (Contributed by [Derson5](https://github.com/Derson5))
     * Korean (Contributed by [ulgoon](https://github.com/ulgoon))
     * Russian (Contributed by [alexeyev](https://github.com/alexeyev))
+    * Turkish (Contributed by [mrkara](https://github.com/mrkara))
 
 ### How to install this theme?
 
