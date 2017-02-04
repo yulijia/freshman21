@@ -295,14 +295,23 @@ time{
  * Aboutme photo Style
  */
 
+
 .about{
-  img {
+  img{
     height: 128px;
     width: 128px;
     border-radius:50%;
     margin: 0 auto;
     display: block;
   }
+}
+
+.img-about{
+  height: 128px;
+  width: 128px;
+  border-radius:50%;
+  margin: 0 auto;
+  display: block;
 }
 
 
