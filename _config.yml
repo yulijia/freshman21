@@ -22,7 +22,7 @@ google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (bla
 ### Site setting:
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr), Russian (ru), and Turkish (tr)
+default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr),  Russian (ru), and Turkish (tr), Indonesian (id),
 
 locales:
     en:
@@ -151,6 +151,24 @@ locales:
       About: "Hakkında"
       Guestbook: "Konuk Defteri"
       Subscribe: "Abone Ol"
+    id:
+      Aboutme: "Tentang Saya"
+      Archives: "Arsip"
+      Blogroll: "Blog teman"
+      Categories: "Kategori"
+      Copyright_Notice: "Legal Formal"
+      Recent_Posts: "Post Terkini"
+      Tags: "Tag"
+      Previous: "Lebih lama"
+      Next: "Lebih baru"
+      PostedInCategories: "Diposting di"
+      Taggedwith: "dan ditag"
+      PostDate: "pada "
+      Google_search: "Pencarian Situs"
+      Home: "Beranda"
+      About: "Tentang"
+      Guestbook: "Buku tamu"
+      Subscribe: "Langganan"
 
 ### your Blogroll info, only name can shown on the page.
 
