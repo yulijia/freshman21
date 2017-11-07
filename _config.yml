@@ -169,6 +169,6 @@ markdown: kramdown
 kramdown:
         input: GFM
         syntax_highlighter: rouge
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 5
 excerpt_separator: <!-- more -->
