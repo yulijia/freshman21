@@ -44,11 +44,12 @@ Clone gh-pages branch:
 - Multiple Languages support 
     * English
     * Chinese
-    * Japanese (Contributed by [kokeiro](https://github.com/kokeiro001))
+    * Japanese (Contributed by [kokeiro001](https://github.com/kokeiro001))
     * Polish (Contributed by [Derson5](https://github.com/Derson5))
-    * Korean (Contributed by [ulgoon](https://github.com/ulgoon))
-    * Russian (Contributed by [alexeyev](https://github.com/alexeyev))
-    * Turkish (Contributed by [mrkara](https://github.com/mrkara))
+    * Korean (Contributed by [Clifford Choi](https://github.com/ulgoon))
+    * Russian (Contributed by [Anton Alekseev](https://github.com/alexeyev))
+    * Turkish (Contributed by [Muhammet Kara](https://github.com/mrkara))
+    * Indonesian (Contributed by [Samsul Ma'arif](https://github.com/samsulmaarif))
 
 ### How to install this theme?
 
