@@ -8,6 +8,6 @@ tags:
 - Indonesian
 ---
 
-Thank to [Samsul Ma'arif](https://github.com/samsulmaarif), Freshmen21 theme support Indonesian now!
+Thanks to [Samsul Ma'arif](https://github.com/samsulmaarif), Freshmen21 theme support Indonesian now!
 
 ![Indonesian language](https://i.imgur.com/DnErT0U.png)
