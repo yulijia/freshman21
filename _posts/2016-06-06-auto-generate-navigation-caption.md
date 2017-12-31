@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "auto generate navigation caption"
 author: Yu

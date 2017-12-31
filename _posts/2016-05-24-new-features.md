@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "new features: keyboard shortcuts for  pagination"
 author: Yu

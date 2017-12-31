@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "Korean and Russian language support"
 author: Yu

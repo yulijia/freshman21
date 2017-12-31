@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "Error: invalid CP949 character"
 author: Yu

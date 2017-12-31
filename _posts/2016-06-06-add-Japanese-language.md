@@ -1,5 +1,5 @@
 ---
-published: ture
+published: true
 layout: post
 title: "add Japanese language"
 author: Yu
