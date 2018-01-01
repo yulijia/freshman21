@@ -6,7 +6,7 @@
 
 
 // Our variables
-$base-font-family: '-apple-system','BlinkMacSystemFont','Helvetica Neue','PingFang SC','Microsoft YaHei','Source Han Sans SC','Noto Sans CJK SC','WenQuanYi Micro Hei','Open Sans', Helvetica, Arial, sans-serif !important;
+$base-font-family: 'Lato', 'Open Sans', Helvetica, Arial, sans-serif !important;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.6em;
@@ -59,5 +59,5 @@ $on-laptop:        800px;
 ;
 
 @import url('http://fonts.googleapis.com/css?family=Open+Sans');
-
+@import url('http://fonts.googleapis.com/css?family=Lato');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
