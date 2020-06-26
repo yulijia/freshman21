@@ -2,7 +2,7 @@
 title: Yo0oN # 블로그 제목
 tagline: ٩( ᐛ )و # 부제목
 author: Yo0oN # 작성자
-email: # 이메일
+# email: # 이메일
 description: "Yo0oN's blog" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description7
 keywords: # "Jekyll, theme, Freshman21" # html meta keywords 
 # baseurl: "/freshman21" # the subpath of your site, e.g. /blog/
@@ -11,7 +11,7 @@ url: "https://yo0on.github.io" # the base hostname & protocol for your site
 locale: kr_KR
 
 ### Personal info and site tools info:
-twitter_username: 
+# twitter_username: 
 github_username: Yo0oN
 disqus_shortname: Yo0oN # disqus shortname
 favicon: "/images/favicon.ico"
@@ -101,9 +101,9 @@ locales:
     kr:
       Aboutme: "저자 소개"
       Archives: "모든 게시물"
-      Blogroll: "참조 링크"
+      # Blogroll: "참조 링크"
       Categories: "카테고리"
-      Copyright_Notice: "저작권"
+      # Copyright_Notice: "저작권"
       Recent_Posts: "최근 게시물"
       Tags: "태그"
       Previous: "이전 게시물"
