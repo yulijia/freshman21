@@ -1,29 +1,29 @@
 ### Site info:
-title: Freshman21
-tagline: Another Jekyll theme, Freshman twenty-first
-author: Lijia Yu
-email: yu@lijiayu.net
-description: "Freshman21 is a Jekyll blog theme." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
-keywords: "Jekyll, theme, Freshman21"
+title: Yo0oN # 블로그 제목
+tagline: ٩( ᐛ )و # 부제목
+author: Yo0oN # 작성자
+email: # 이메일
+description: "Yo0oN's blog" # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description7
+keywords: # "Jekyll, theme, Freshman21" # html meta keywords 
 # baseurl: "/freshman21" # the subpath of your site, e.g. /blog/
 baseurl:
-url: "https://yulijia.net/freshman21" # the base hostname & protocol for your site
-locale: en_US
+url: "https://yo0on.github.io" # the base hostname & protocol for your site
+locale: kr_KR
 
 ### Personal info and site tools info:
-twitter_username: yulijia
-github_username:  yulijia
-disqus_shortname: freshman21
-favicon:     "/images/favicon.ico"
-aboutme: Hi, this is Lijia Yu. I made the Freshman21 theme. Please enjoy it. # these are shown on aboutme-sidebar.
-aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg# your photo.
-google_analytics_key: UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
+twitter_username: 
+github_username: Yo0oN
+disqus_shortname: Yo0oN # disqus shortname
+favicon: "/images/favicon.ico"
+aboutme: 화이팅 ٩( ᐛ )و # these are shown on aboutme-sidebar.
+aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg # your photo.
+google_analytics_key: # UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
 
 
 ### Site setting:
 ShowContactInfo: "True" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
-default_locale: "en" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr),  Russian (ru), Turkish (tr), and Indonesian (id).
+default_locale: "kr" # blog sidebar language set, only include: English (en), Chinese (cn), Japanese (jp), Polish (pl), Korean (kr),  Russian (ru), Turkish (tr), and Indonesian (id).
 
 locales:
     en:
@@ -172,14 +172,14 @@ locales:
       Subscribe: "Langganan"
 
 ### your Blogroll info, only name can shown on the page.
-
-Blogroll:
-      - name: Freshman
-        href: http://yulijia.net/freshman
-        title: Another Jekyll blog theme
-      - name: author's website
-        href: http://yulijia.net/
-        title: Lijia Yu's website
+# 다른 블록에 대한 
+# Blogroll:
+#       - name: Yo0oN
+#         href: https://yo0on.github.io/
+#         title: Another Jekyll blog theme
+#       - name: Yo0oN's website
+#         href: https://yo0on.github.io/
+#         title: Lijia Yu's website
 
 
 ### Build settings
@@ -189,5 +189,5 @@ kramdown:
         input: GFM
         syntax_highlighter: rouge
 plugins: [jekyll-paginate]
-paginate: 5
+paginate: 3 # 메인페이지에서 몇개의 글을 볼 수 있는가?
 excerpt_separator: <!-- more -->
