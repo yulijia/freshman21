@@ -16,7 +16,7 @@ github_username: Yo0oN
 disqus_shortname: Yo0oN # disqus shortname
 favicon: "/images/favicon.ico"
 aboutme: <br>화이팅 ٩( ᐛ )و # these are shown on aboutme-sidebar.
-aboutme_photo:/images/myPage.jpg # your photo.
+aboutme_photo: "/images/myPage.jpg" # your photo.
 google_analytics_key: # UA-57979084-1 # put YOUR key here to enable tracking! (blank to disable)
 
 
