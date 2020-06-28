@@ -2,9 +2,9 @@
 layout: post
 title: Theme structure
 modified: 2014-12-19
-categories: [articles, Howto]
+categories: [기타]
 tags: 
-  - structure
+  - 
 comments: true
 ---
 
