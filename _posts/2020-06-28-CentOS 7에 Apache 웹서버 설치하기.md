@@ -28,7 +28,7 @@ $ yum -y install httpd
 
 -y 옵션은 모든 대답을 yes로 한다는 뜻이다.
 
-[installApache](/images/installApache/installApache01.jpg "Apache 설치중"){: .align-center}
+![installApache](/images/installApache/installApache01.jpg "Apache 설치중"){: .align-center}
 
 설치가 완료된다면 /etc 에 httpd 디렉터리가 새로 생성된 것을 볼 수 있다.
 
@@ -42,7 +42,7 @@ Apache는 기본적으로 80번 포트를 사용하고 있다.
 
 해당 내용이 궁금하다면 /etc/httpd/conf/httpd.conf 파일을 확인해보자.
 
-[80port](/images/installApache/installApache02.jpg "포트번호 확인해보기"){: .align-center}
+![80port](/images/installApache/installApache02.jpg "포트번호 확인해보기"){: .align-center}
 
 ```bash
 $ firewall-cmd --permanent --add-service=http
@@ -80,7 +80,7 @@ systemctl start httpd
 
 설치, 실행이 완료되었다면 실제로 접속이 되는 모습을 확인할 수 있다.
 
-[확인](/images/posts/installApache/installApache03.jpg "확인"){: .align-center}
+![확인](/images/posts/installApache/installApache03.jpg "확인"){: .align-center}
 
 <br>
 <br>
@@ -88,7 +88,7 @@ systemctl start httpd
 
 ## 5. 주요 디렉토리..
 
-[구조](/images/posts/installApache/installApache04.png "구조"){: .align-center}
+![구조](/images/posts/installApache/installApache04.png "구조"){: .align-center}
 
 <ul>
   <li>conf : 웹 서버의 주요 설정 파일인 httpd.conf파일과 MIME 형식을 지정하기 위한 magic 파일이 있음</li>
